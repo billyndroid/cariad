@@ -1,0 +1,7 @@
+/* Colors, typography variables */
+:root {
+  --primary-color: #e60023;
+  --secondary-color: #222;
+  --font-main: 'Montserrat', Arial, sans-serif;
+  --font-alt: 'Nunito Sans', Arial, sans-serif;
+}
