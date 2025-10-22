@@ -1,3 +1,15 @@
+/* ---------- Site Logo ---------- */
+.site-logo {
+	display: block;
+	margin: 0 auto 12px auto;
+	height: 64px;
+	width: auto;
+	border-radius: 0;
+	box-shadow: none;
+	background: none;
+	transition: none !important;
+	animation: none !important;
+}
 /* ---------- Gallery Section ---------- */
 .gallery-section {
 	margin: 48px auto 0 auto;
@@ -227,6 +239,11 @@ color: var(--slate);
 img:hover {
 	transform: scale(1.025) rotate(-1deg);
 	box-shadow: 0 8px 32px 0 rgba(60,60,60,0.16);
+}
+.site-logo:hover, .site-logo:active, .site-logo:focus {
+	transform: none !important;
+	box-shadow: none !important;
+	filter: none !important;
 }
 
 /* ---------- Header ---------- */
