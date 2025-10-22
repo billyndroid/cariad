@@ -1,0 +1,61 @@
+<svg viewBox="0 0 300 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="120" fill="#F9F6F1"/>
+  
+  <!-- Abstract heart made of yarn/thread -->
+  <g transform="translate(45, 60)">
+    <!-- Heart shape created with continuous flowing yarn line -->
+    <path d="M 0,18 
+             C -8,10 -12,6 -15,2 
+             C -18,-2 -18,-6 -15,-9 
+             C -12,-12 -8,-12 -5,-10
+             C -3,-8 -1,-6 0,-4
+             C 1,-6 3,-8 5,-10
+             C 8,-12 12,-12 15,-9
+             C 18,-6 18,-2 15,2
+             C 12,6 8,10 0,18 Z" 
+          fill="none" stroke="#C9A88A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Inner flowing yarn detail -->
+    <path d="M 0,12 
+             C -6,7 -9,4 -11,1 
+             C -12,-1 -12,-3 -10,-5
+             C -8,-6 -6,-6 -4,-5
+             C -2,-3 -1,-2 0,0
+             C 1,-2 2,-3 4,-5
+             C 6,-6 8,-6 10,-5
+             C 12,-3 12,-1 11,1
+             C 9,4 6,7 0,12 Z" 
+          fill="none" stroke="#D4A574" stroke-width="1.5" opacity="0.6"/>
+    
+    <!-- Crochet stitch dots arranged in heart pattern -->
+    <circle cx="-8" cy="0" r="1.5" fill="#8B7355"/>
+    <circle cx="-4" cy="-2" r="1.5" fill="#8B7355"/>
+    <circle cx="0" cy="-3" r="1.5" fill="#8B7355"/>
+    <circle cx="4" cy="-2" r="1.5" fill="#8B7355"/>
+    <circle cx="8" cy="0" r="1.5" fill="#8B7355"/>
+    <circle cx="-6" cy="4" r="1.5" fill="#8B7355"/>
+    <circle cx="0" cy="6" r="1.5" fill="#8B7355"/>
+    <circle cx="6" cy="4" r="1.5" fill="#8B7355"/>
+    <circle cx="0" cy="10" r="1.5" fill="#8B7355"/>
+    
+    <!-- Flowing yarn tail -->
+    <path d="M 0,18 Q 8,22 12,28" 
+          fill="none" stroke="#C9A88A" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  </g>
+  
+  <!-- Text: Cariad -->
+  <text x="85" y="58" font-family="Georgia, serif" font-size="32" font-weight="300" fill="#5A4A3A" letter-spacing="1">
+    Cariad
+  </text>
+  
+  <!-- Text: CROCHET -->
+  <text x="85" y="78" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#8B7355" letter-spacing="3.5">
+    CROCHET
+  </text>
+  
+  <!-- Subtitle tagline -->
+  <text x="85" y="92" font-family="Georgia, serif" font-size="9" font-style="italic" fill="#A89080" letter-spacing="0.5">
+    Handmade in Wales
+  </text>
+</svg>
